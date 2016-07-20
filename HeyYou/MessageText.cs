@@ -18,6 +18,7 @@ namespace HeyYou
 
         public string getNextWord()
         {
+            //update later to handle dynamic messages
             Count++;
             if (Count % 2 != 0)
             {
