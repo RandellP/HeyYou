@@ -6,10 +6,10 @@ using System.Threading.Tasks;
 
 namespace HeyYou
 {
-    class MessageText
+    public class MessageText
     {
         private Int32 Count = 0;
-        private string sText = "Hey You";
+        //private string sText = "Hey You";
 
         public MessageText()
         {
@@ -18,6 +18,7 @@ namespace HeyYou
 
         public string getNextWord()
         {
+            //test update
             //update later to handle dynamic messages
             Count++;
             if (Count % 2 != 0)
