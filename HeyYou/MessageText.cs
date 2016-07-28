@@ -19,6 +19,7 @@ namespace HeyYou
         public string getNextWord()
         {
             //update later to handle dynamic messages
+            //jenkins should get this change.
             Count++;
             if (Count % 2 != 0)
             {
